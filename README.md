@@ -28,7 +28,7 @@ Experimentation with length of vectors used was also explored to find optimal re
 
 Results
 ---
-**1. Overview:**  The MLP model with two hidden layers of respective sizes 100 and 200 was found to provide the highest classification accuracy, with an F1-Score of .8911. 
+1.  The MLP model with two hidden layers of respective sizes 100 and 200 was found to provide the highest classification accuracy, with an F1-Score of .8911. 
 
 Data
 ---
