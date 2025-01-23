@@ -34,6 +34,10 @@ Data
 ---
 <img width="336" alt="Image" src="https://github.com/user-attachments/assets/e393f947-9ec9-4086-90b0-4caf4d4cf420" />
 
+Balance
+---
+![image](https://github.com/user-attachments/assets/8259caaf-c55a-4f92-8bff-ce37321bb9c8)
+
 
 Links
 ---
