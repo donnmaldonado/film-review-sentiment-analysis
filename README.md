@@ -38,7 +38,7 @@ EDA
 ---
 ![image](https://github.com/user-attachments/assets/8259caaf-c55a-4f92-8bff-ce37321bb9c8)
 
-![image](https://github.com/user-attachments/assets/687624b9-724f-40ce-b8f4-a93c026fc079)
+<img width="855" alt="Screenshot 2025-01-23 at 5 51 04 PM" src="https://github.com/user-attachments/assets/834f9851-4f0d-422f-9df8-9441de1d3d6c" />
 
 
 
