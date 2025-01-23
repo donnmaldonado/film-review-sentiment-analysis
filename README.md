@@ -2,6 +2,7 @@
 
 Summary
 ---
+
 Sentiment analysis, leveraging natural language processing to uncover emotions in text, is a
 powerful tool for understanding public opinion. This research applies sentiment analysis to IMDb movie
 reviews to support data-driven decision-making in the entertainment industry. The process began with
@@ -10,6 +11,7 @@ machine learning models were developed and fine-tuned to classify review sentime
 negative, including Logistic Regression, SVM, XGBoost, Random Forest, Decision Tree, and a Multi-
 Layer Perceptron (MLP). Among these, the MLP (Neural Network) model achieved the best performance, with optimal
 results obtained using Word2Vec embeddings of length 500.
+
 Process
 ---
 Data is downloaded as CSV file to local storage from Kaggle.
