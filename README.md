@@ -1,34 +1,47 @@
-# Film Review Sentiment Analysis
+# 🎬 Film Review Sentiment Analysis
 
-Summary
----
+## 📝 Overview
 
-Sentiment analysis, leveraging natural language processing to uncover emotions in text, is a
-powerful tool for understanding public opinion. This research applies sentiment analysis to IMDb movie
-reviews to support data-driven decision-making in the entertainment industry. The process began with
-data pre-processing, including converting text reviews into numerical vectors using Word2Vec. Multiple
-machine learning models were developed and fine-tuned to classify review sentiments as positive or
-negative, including Logistic Regression, SVM, XGBoost, Random Forest, Decision Tree, and a Multi-
-Layer Perceptron (MLP). Among these, the MLP (Neural Network) model achieved the best performance, with optimal
-results obtained using Word2Vec embeddings of length 500.
+This project applies **sentiment analysis** to IMDb film reviews using Natural Language Processing (NLP) and machine learning techniques. The goal is to classify reviews as **positive** or **negative**, helping stakeholders in the entertainment industry better understand viewer sentiment and inform data-driven decisions.
 
-Process
----
-Data is downloaded as CSV file to local storage from Kaggle.
+## 🔍 Objective
 
-Exploratory data analysis was then conducted to inform the steps needed to properly process and clean the data into a usable state.
+To compare the performance of various classification algorithms in identifying the sentiment of movie reviews, using vectorized text representations from Word2Vec.
 
-Data cleaning involved lowercasing, the removal of unwanted text (HTML, URLs, punctiations, emojis, and digits), and removal of stop words.
+## 📊 Workflow
 
-Pre-processing involved encoding sentiment (positive = 1, negative = 0) and using Word2Vec(skip-a-gram) to transform our text data into numeric vectors that are usable by machine learning models.
+1. **Data Source**
+   - IMDb movie reviews dataset (CSV format) from Kaggle.
 
-Lastly multiple classification models were developed and tuned for optimal hyperparameters using GridSearchCV.
+2. **Exploratory Data Analysis (EDA)**
+   - Performed to identify data quality issues and distribution patterns.
 
-Experimentation with length of vectors used was also explored to find optimal results.
+3. **Data Cleaning**
+   - Converted text to lowercase
+   - Removed HTML tags, URLs, punctuation, emojis, digits, and stop words
 
-Results
----
-1.  The MLP model with two hidden layers of respective sizes 100 and 200 was found to provide the highest classification accuracy, with an F1-Score of .8911. 
+4. **Text Vectorization**
+   - Applied **Word2Vec** (Skip-gram) to convert textual reviews into 500-dimensional numeric vectors.
+
+5. **Model Training**
+   - Trained and tuned multiple classification models:
+     - Logistic Regression
+     - Support Vector Machine (SVM)
+     - Random Forest
+     - Decision Tree
+     - XGBoost
+     - Multi-Layer Perceptron (MLP)
+
+6. **Hyperparameter Tuning**
+   - Used `GridSearchCV` for optimal model configurations.
+   - Explored varying Word2Vec vector lengths to optimize performance.
+
+## 🏆 Best Model
+
+- ✅ **Multi-Layer Perceptron (MLP)**
+  - Architecture: Two hidden layers (sizes 100 and 200)
+  - Performance: **F1-score = 0.8911**
+  - Vectorization: Word2Vec with embedding size of 500
 
 Data
 ---
@@ -38,7 +51,16 @@ EDA
 ---
 ![image](https://github.com/user-attachments/assets/8259caaf-c55a-4f92-8bff-ce37321bb9c8)
 
+
 <img width="855" alt="Screenshot 2025-01-23 at 5 51 04 PM" src="https://github.com/user-attachments/assets/834f9851-4f0d-422f-9df8-9441de1d3d6c" />
+
+Results
+---
+![Image](https://github.com/user-attachments/assets/050bfa35-1388-47ec-a3fb-58586fa98358)
+
+![Image](https://github.com/user-attachments/assets/2eb77260-e036-4231-8ca5-3ac8a843d547)
+
+
 
 
 
